@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# Test cache
+.pytest_cache/
+
+# System files
+.DS_Store
+
+# Uploaded datasets and generated results
+app/data/uploads/
+app/data/results/
+app/data/*.xlsx
+app/data/dataset_registry.json
+app/data/dataset_registry.json.bak
+
+# Backup and temporary files
+*.bak
+*.backup
+*_backup.*
+*_before_*.py
+*_before_*.json
+
+# ZIP packages
+*.zip
+
+# Local test data
+app/data/*_test.csv
+app/data/different_sample.csv
+app/data/partial_test.csv
+app/data/unusual_types_test.csv
+
+
+app/data/sample.csv
+demo_outputs/
+integration_test_sample_response.json
+sample_quality_report.json
